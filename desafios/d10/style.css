@@ -1,0 +1,17 @@
+#res {
+  font-size: 16pt;
+}
+
+button {
+  padding: .7rem 1rem;
+  background-color: cadetblue;
+  color: white;
+  transition: .2s;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(63, 106, 107);
+}
