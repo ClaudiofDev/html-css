@@ -46,6 +46,7 @@ div {
 }
 
 #p {
+    border-radius: 2%;
     width: auto;
     height: auto;
     background-color: white;
@@ -60,6 +61,7 @@ div {
 }
 
 #t{
+    border-radius: 2%;
     width: auto;
     height: auto;
     background-color: white;
