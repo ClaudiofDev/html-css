@@ -36,9 +36,12 @@ section {
     padding-bottom: 15px;
     padding-left: 20px;
     line-height: 35px;
+    
 }
 
 div {
+    border-radius: 4%;
+    padding: 0px 10px;
     display: inline-block;
     font-family: 'Sriracha', cursive;
     background-color: #0000007a;
@@ -46,10 +49,11 @@ div {
 }
 
 #p {
-    border-radius: 2%;
+    display: block;
     width: auto;
     height: auto;
     background-color: white;
+    border-radius: 2%;
 }
 
 #s {
@@ -61,7 +65,7 @@ div {
 }
 
 #t{
-    border-radius: 2%;
+    
     width: auto;
     height: auto;
     background-color: white;
