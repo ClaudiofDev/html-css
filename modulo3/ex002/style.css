@@ -6,11 +6,7 @@
 }
 
 body {
-    /* background shorthand
-    color image position repeat [size] attachment */
-
-    background: #ffffff url(imagens/transferir.jpg) center center no-repeat fixed;
-    background-size: cover;
+    
 }
 
 header {
@@ -55,10 +51,23 @@ div {
     background-color: white;
 }
 
+#s {
+    /* background shorthand
+    color image position repeat [size] attachment */
+
+    background: #ffffff url(imagens/love-826934_1280.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
 #t{
     width: auto;
     height: auto;
     background-color: white;
+}
+
+#qa {
+    background: #ffffff url(imagens/transferir\ \(1\).jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 #qi {
