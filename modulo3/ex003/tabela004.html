@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela e colgroup</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+        }
+
+        table {
+            width: 94vw;
+        }
+
+        th {
+            
+            color: black;
+        }
+
+        td {
+            
+            color: black;
+        }
+
+        col.cnome {
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela e Colgroup</h1>
+    <table>
+        <colgroup>
+            <col class="cnome" span="4">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Adolfo</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Eletricista</td>
+        </tr>
+        <tr>
+            <td>Emanuel</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
